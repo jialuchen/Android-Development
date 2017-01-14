@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MortgageCal</string>
+    <string name="action_settings">Settings</string>
+        <string name="PP">Purchase Price ($) </string>
+        <string name="DP">Down Payment (%)</string>
+        <string name="MT">Mortgage Term (yrs)</string>
+        <string name="IR">Interest Rate (%)</string>
+        <string name="PT">Property Tax ($/yr)</string>
+        <string name="PI">Property Insurance (%/yr)</string>
+        <string name="PMI">PMI (%)</string>
+        <string name="ZIP">ZIP Code</string>
+        <string name="DATE">First Payment Date</string>
+        <string name="Save">Save</string>
+        <string name="start">Start</string>
+        <string name="myID">jialuc@andrew.cmu.edu</string>
+        <string name="back">Back</string>
+        <string name="TMP">Totally Monthly Payment ($)</string>
+        <string name="TP">Total Payment ($)</string>
+        <string name="POD">Pay-off Date</string>
+        <string name="LOGTIME">Log Time</string>
+        <string name="Add">Add Mortgage</string>
+        <string name="Name">Name</string>
+        <string name="errorButton">OK</string>
+        <string name="errorTitle">Error</string>
+        <string name="errorMessage">Missing/Wrong Information</string>
+</resources>

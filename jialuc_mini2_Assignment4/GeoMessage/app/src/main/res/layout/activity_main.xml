@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#ffffff">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1">
+        <TextView android:id="@+id/LNG_Label"
+            android:text="LNG"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView android:id="@+id/tv_lon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_column="1"
+            android:textColor="#040404"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1">
+        <TextView android:id="@+id/latitude_LabelTextView"
+            android:text="LAT"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView android:id="@+id/tv_lat"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_column="1"
+            android:textSize="30sp"
+            android:textColor="#040404" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:weightSum="1">
+        <TextView android:id="@+id/altitude_LabelTextView"
+            android:text="ALT"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_column="0"
+            android:layout_height="wrap_content"
+            android:textColor="#040404"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"></TextView>
+        <TextView android:id="@+id/tv_alt"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_column="1"
+            android:textSize="30sp"
+            android:textColor="#040404" />
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/btn_sendmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_button"
+            android:background="#5c8bc1"
+            android:textColor="#ffffffff"
+            android:textSize="25sp"
+            android:clickable="false"
+            android:textStyle="bold"
+            android:layout_weight="1.4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp" />
+    </TableRow>
+
+</LinearLayout>

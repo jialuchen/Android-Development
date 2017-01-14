@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ID"
+            android:imeOptions="actionNext"
+            android:inputType="number">
+
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Q1"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal">
+
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/et_q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Q2"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/et_q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Q3"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/et_q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Q4"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/et_q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Q5"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+
+
+        <Button
+            android:id="@+id/addpage_save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/Save" />
+    </LinearLayout>
+</ScrollView>

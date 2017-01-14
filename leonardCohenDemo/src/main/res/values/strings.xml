@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Leonard Cohen Demo</string>
+
+    <string name="music">Music</string>
+    <string name="video">Video</string>
+    <string name="pics">Pics</string>
+    <string name="mail_list">Mail List</string>
+
+    <string name="name">Leonard Cohen</string>
+    <string name="birthday">Birthday : 21 September 1934</string>
+    <string name="interest">Like : Music &amp; Poem</string>
+    <string name="hate">Hate : War</string>
+    <string name="mainpage_contact">Contact : jialuc@andrew.cmu.edu</string>
+    <string name="main_page"><a href="http://www.leonardcohen.com/">Main Page</a></string>
+    <string name="twitter"><a href="https://twitter.com/leonardcohen74">Twitter</a></string>
+    <string name="facebook"><a href="https://www.facebook.com/leonardcohen">Facebook</a></string>
+
+    <string name="Submit">Submit</string>
+    <string name="nickname">Nick Name</string>
+    <string name="email">Email</string>
+    <string name="subject">Subject</string>
+    <string name="content">Say To ROC</string>
+
+    <string name="errorButton">OK</string>
+    <string name="errorTitle">Error</string>
+    <string name="invalid_input">Input Cannot Be Empty</string>
+    <string name="wrong_email">Input Cannot Be Empty</string>
+    <string name="slogan">In my secret life</string>
+    <string name="fragment_button_left">Play Video1</string>
+    <string name="fragment_button_right">Play Video2</string>
+    <string name="empty_input">Empty Input</string>
+    <string name="invalid_email">Illegal Email Address</string>
+    <string name="pause_needed">Pause First!</string>
+    <string name="hard_knock">Demo3</string>
+    <string name="city_heart">Demo2</string>
+    <string name="album_99">Demo1</string>
+    <string name="a_song_first">Start A Song First</string>
+    <string name="song_is_not_playing">This Song is Not Playing</string>
+    <string name="touch_image">Touch Screen to View Images!</string>
+    <string name="crazy_in_love">Video demo 1</string>
+    <string name="empire_state">Video demo 2</string>
+    <string name="start">Start</string>
+    <string name="restart">Restart</string>
+    <string name="pause">Pause</string>
+
+
+</resources>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+
+    <LinearLayout
+        android:id="@+id/button_contact"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_music"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/music"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_video"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/video"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_pic"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/pics"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_email"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/email"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_contact"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_page" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_contact"
+
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:id="@+id/info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/name"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_birthday"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+
+                android:text="@string/birthday"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_interest"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+
+                android:text="@string/interest"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_hate"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/hate"
+                android:textColor="@android:color/white"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_main_page"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/main_page"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/tv_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/twitter"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/tv_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="@string/facebook"
+                android:textStyle="bold|italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
